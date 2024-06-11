@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sylchamber-hello"
+  annotations:
+    "humanitec.com/orgId": "platformcon-2024"
+    "humanitec.com/appId": "sylchamber-hello"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
